@@ -51,7 +51,7 @@ app.post('/verify', (req, res) => {
     }
   });
 });
-
+ //este es el server
 
 // 📥 Ruta para registrar usuarios
 app.post("/register", (req, res) => {
@@ -91,7 +91,7 @@ app.post("/register", (req, res) => {
   });
 });
 
-
+//otro comentario prueba
 
 const PORT = 3000;
 app.listen(PORT, () => {
