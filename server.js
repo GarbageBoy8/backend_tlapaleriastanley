@@ -13,7 +13,7 @@ const db = mysql.createConnection({
   password: 'admin123', // tu contraseña si tienes
   database: 'tlapaleria_stanley' // base de datos que creaste
 });
-
+//hola mundo
 db.connect(err => {
   if (err) {
     console.error('❌ Error al conectar con MySQL:', err);
